@@ -1,0 +1,98 @@
+header {
+  border: 2px solid black;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #f2f2f2;
+  z-index: 3;
+}
+h1 img {
+  max-height: 95px;
+  position: absolute;
+  top:-0px;
+  left: 11px;
+}
+header h4 img{
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  display: block;
+  width: 55px;
+}
+header h5 img {
+  position: absolute;
+  top: -4px;
+  right: 53px;
+  display: block;
+  width: 70px;
+}
+header h6 img{
+  position: absolute;
+  top: 4px;
+  right: 122px;
+  display: block;
+  width: 50px;
+}
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: 122px;
+  margin-right: 0px;
+  margin-top: 24px;
+  top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: 'Koulen', cursive;
+  list-style-type: none;
+}
+ul li {
+  border: 2px solid black;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 0px;
+  text-align: center;
+}
+ul li:hover {
+  background-color: #84AADB;
+  color: #F2f2f2;
+  cursor: pointer;
+}
+ul a {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   padding-left: 39%;
+   padding-right: 39%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   margin: -100%;
+}
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: 163px;
+  margin-right: 185px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.topnav input {
+  width: 100%;
+  height: 33px;
+  font-size: 1.5em;
+}
+footer {
+  border: 2px solid black;
+  padding: 10px;
+  position: fixed;
+  left: -5px;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}

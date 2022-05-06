@@ -1,0 +1,16 @@
+.imgtextp3{
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  color: #f2f2f2;
+  font-family: 'Koulen', cursive;
+}
+.sportimg p {
+  display: block;
+  border: solid black 2px;
+  width: 500px;
+  margin: 5px;
+  padding: 0px;
+}
